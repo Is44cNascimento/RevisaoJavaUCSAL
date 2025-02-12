@@ -1,0 +1,107 @@
+Lista de exercícios
+
+1) Faça um programa em Java que receba uma temperatura em centígrados e transforme para fahrenheit.
+Sabe-se que a fórmula para conversão é F=((9.C)+160)/5.
+
+2) Faça um programa em Java que solicite a hora atual (expressa em horas, minutos e segundos) ao usuário e
+informe quantos segundos do dia já passaram.
+
+3) Faça um programa em Java que receba 3 notas de um aluno e seus respectivos pesos, calcule e informe a
+média ponderada.
+
+4) Faça um programa em Java que receba as horas de início e fim de uma atividade (expressas em horas,
+minutos e segundos) e ao final informe o tempo de duração da atividade. Dica: transforme as horas de início
+e fim em segundos, realize a subtração e em seguida volte a transformar em horas, minutos e segundos.
+
+5) Faça um algoritmo em Java que receba a idade de uma pessoa e informe em qual das categorias se
+enquadra em relação à obrigatoriedade do voto:
+• Sem permissão para votar (0 a 15 anos)
+• Voto facultativo (16 a 17 anos, acima de 65 anos)
+• Voto obrigatório (18 a 64 anos)
+
+6) As maçãs custam R$ 0,30 cada se forem compradas menos do que uma dúzia, e R$ 0,25 se forem
+compradas pelo menos doze. Escreva um programa que leia o número de maçãs compradas, calcule e
+escreva o valor total da compra.
+
+
+7) Faça um programa em Java que receba três valores inteiros referentes ao tamanho dos três lados de um
+triângulo. Para formar um triângulo cada lado deve ser menor do que a soma dos outros dois lados. Uma vez
+verificado que os valores estão corretos (ou seja, formam um triângulo) o programa deve classifica-lo em
+equilátero (todos os lados iguais), isósceles (dois lados iguais), escaleno (todos os lados diferentes).
+
+8) A escola “APRENDER” faz o pagamento de seus professores por hora/aula. Faça um programa em Java que
+receba o enquadramento do professor e a quantidade de horas trabalhadas, calcule e exiba o salário do
+professor. Sabe-se que o valor da hora/aula segue a tabela abaixo:
+Enquadramento Valor da hora/aula
+Nível 1 R$12,00
+Nível 2 R$17,00
+Nível 3 R$25,00
+Fonte: http://www.comp.uems.br/~mercedes/disciplinas/2013/AEDI/Estrutura%20Condicional%20Resolvida.pdf
+
+9) Faça um programa que receba um valor n e em seguida informe o valor de S.
+a) s=1+1/2+1/3+...+1/n
+b) s=1/n + 2/(n-1) + 3/(n-2) +...+ (n-1)/2+n
+c) s=1 - 1/2 + 1/3- 1/4 +...+ 1/n
+
+
+10)Faça um programa que receba um número e informe se é um termo da sequência de Fibonacci. Na
+sequência de Fibonacci cada termo é a soma dos dois termos anteriores:
+1, 1, 2, 3, 5, 8, 13...
+
+
+
+11) Escreva um programa para ler o nome do cliente e o saldo inicial de uma conta bancária. A seguir ler um
+número indeterminado de pares de valores indicando respectivamente o tipo da operação (codificado da
+seguinte forma: 1.Depósito 2.Retirada 3.Fim) e o valor. Quando for informado para o tipo o código 3, o
+programa deve ser encerrado e impresso o saldo final da conta com as seguintes mensagens: CONTA ZERADA,
+CONTA ESTOURADA(se o saldo for negativo) ou CONTA PREFERENCIAL (se o saldo for positivo).
+[http://www.cafw.ufsm.br/~leticia/lista3-c.pdf]
+
+12) Faça um programa que receba vários números positivos, calcule e mostre:
+a) a soma dos números digitados;
+b) a quantidade de números digitado;
+c) a média dos números digitados;
+d) o maior número digitado;
+e) o menor número digitado;
+f) a média dos números pares.
+[http://www.cafw.ufsm.br/~leticia/lista3-c.pdf]
+13) Faça um programa que receba um número inteiro e informe se é um número primo.
+14) Faça um programa que receba um número N e mostre na tela os N primeiros números primos.
+15) Faça um programa que receba uma string e mostre-a na vertical.
+Exemplo: palavra = “agora” -> a
+g
+o
+r
+a
+
+16) Faça um programa que receba o nome e a idade de 20 pessoas e armazene em dois vetores. Uma vez
+preenchidos os vetores, o programa deve calcular a média das idades e listar os nomes das pessoas que têm
+idade acima da média.
+
+17) Faça um programa que preencha um vetor com 50 valores recebidos pelo teclado e, ao final, informe a
+posição do maior número. Desconsidere a possibilidade de empate.
+
+18) Dizemos que uma matriz inteira A (n x n) é uma matriz de permutação se em cada linha e em
+cada coluna houver n-1 elementos nulos e um único elemento igual a 1. Dada uma matriz inteira A (n
+x n) verificar se A é de permutação. [http://www.inf.ufpr.br/ci208/lista-matrizes/]
+Exemplos:
+0 1 0 0
+0 0 1 0
+1 0 0 0
+0 0 0 1
+é de permutação, enquanto que:
+0 1 0 0
+0 0 1 0
+1 0 0 0
+0 0 0 2
+não é de permutação.
+19) Faça um programa que preencha uma matriz quadrada de forma que:
+• os elementos da diagonal principal sejam todos zero
+• os elementos acima da diagonal principal sejam todos iguais a 1
+• os elementos abaixo da diagonal principal sejam todos iguais a -1
+20) Faça uma função que preencha uma matriz com uma sequência de números iniciada por 1 coluna
+a coluna.
+Exemplo:
+1 4 7
+2 5 8
+3 6 9
