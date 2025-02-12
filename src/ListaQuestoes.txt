@@ -65,10 +65,16 @@ d) o maior número digitado;
 e) o menor número digitado;
 f) a média dos números pares.
 [http://www.cafw.ufsm.br/~leticia/lista3-c.pdf]
+
 13) Faça um programa que receba um número inteiro e informe se é um número primo.
+
+
 14) Faça um programa que receba um número N e mostre na tela os N primeiros números primos.
+
+
 15) Faça um programa que receba uma string e mostre-a na vertical.
-Exemplo: palavra = “agora” -> a
+Exemplo: palavra = “agora” ->
+a
 g
 o
 r
